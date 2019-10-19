@@ -24,6 +24,7 @@ function App() {
           <Header.Content>DeveloPets</Header.Content>
         </Header>
       </header>
+    <center>
       <div className="App-content">
         <Container>
           <Card.Group stackable>{pets.map(pet => PetCard(pet))}</Card.Group>
